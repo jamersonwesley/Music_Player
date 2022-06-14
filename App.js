@@ -50,7 +50,7 @@ export default function App() {
        await curaudio.loadAsync(curfile);
        await curaudio.playAsync();
      } catch (error) {
-       
+
      }
      setaudio(curaudio)
      setsong(changesong)
@@ -92,9 +92,9 @@ export default function App() {
 
 
         })}
-    <View style={styles.player}></View>
+
    </ScrollView>
-  
+
   );
 }
 
@@ -102,20 +102,20 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#000000',
- 
+
   },
   header:{
     backgroundColor: 'rgba(135, 12, 182,0.5) ',
     alignItems:'center',
     height:100,
     justifyContent:'center',
-   
+
   },
   texts:{
     fontSize:30,
     color:'rgba(188, 187, 189,0.9)',
 
-    
+
   },
   table:{
     flexDirection:'row',
